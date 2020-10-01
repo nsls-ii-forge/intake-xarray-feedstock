@@ -1,6 +1,6 @@
 {% set name = "intake-xarray" %}
-{% set version = "0.3.1" %}
-{% set sha256 = "cb284d6346b6e8fb6752a1fe616e594ad3c1ed50ffd336bbe8d07cd8d5ea9de4" %}
+{% set version = "0.3.2" %}
+{% set sha256 = "1ab910b4fde2b31573742ddda273f3fe284d25a56ac75f4f51932b6766385644" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -34,5 +34,5 @@ test:
 about:
   home: https://github.com/ContinuumIO/intake-xarray
   license: BSD-2-Clause
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
   summary: xarray plugins for Intake
