@@ -5,11 +5,9 @@ Home: https://github.com/ContinuumIO/intake-xarray
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/nsls-ii-forge/intake-xarray-feedstock/blob/master/LICENSE.txt)
 
 Summary: xarray plugins for Intake
-
-
 
 Current build status
 ====================
