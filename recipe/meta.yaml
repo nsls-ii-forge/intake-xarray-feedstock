@@ -1,6 +1,6 @@
 {% set name = "intake-xarray" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "319d62a8854ad8de6e3d5db245f9d1441f9a8b08549351d367ff7d98a7e8535a" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "fa8166e7ef3e665d9b78e48ef74e9cb78e1bf2b2edc9c65278796336b07e8a24" %}
 
 package:
   name: {{ name|lower }}
